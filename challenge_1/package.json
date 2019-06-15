@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack -d --watch",
+    "start": "json-server --watch ./public/db.json --static ./public"
   },
   "author": "Chad Cramer",
   "license": "ISC",
