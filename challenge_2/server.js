@@ -4,7 +4,7 @@ const port = 3000
 const bodyParser = require('body-parser')
 
 // serve up html
-app.use(express.static(__dirname + 'public'));
+app.use(express.static(__dirname + '/public'));
 
 // enable CORS
 app.use(function(req, res, next) {
