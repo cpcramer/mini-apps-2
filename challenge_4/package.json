@@ -5,11 +5,12 @@
   "main": "server.js",
   "scripts": {
     "build": "webpack --config ./webpack.config.js -w --mode production",
-    "start": "nodemon server.js"
+    "start": "nodemon ./server/server.js"
   },
   "author": "Chad Cramer",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "nodemon": "^1.19.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
